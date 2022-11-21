@@ -46,6 +46,7 @@ function game(numRounds) {
     let computerChoice = getComputerChoice();
     playRound(playerChoice, computerChoice);
     console.log(playerScore, computerScore);
+    alert(gameResult);
   }
 
   if (computerScore > playerScore) {
